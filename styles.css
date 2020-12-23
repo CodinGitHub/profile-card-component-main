@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root{
+    --Darkcyan: hsl(185, 75%, 39%);
+    --Verydarkdesaturatedblue: hsl(229, 23%, 23%);
+    --Darkgrayishblue: hsl(227, 10%, 46%);
+    --Darkgray: hsl(0, 0%, 59%);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--Darkcyan);
+    background: url(/images/bg-pattern-bottom.svg);
+    
+}
+.container{
+    border: 1px solid;
+    width: 330px; /* 380 en desktop */
+    height: 380px;
+    
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
