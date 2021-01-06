@@ -11,10 +11,8 @@ body{
     
     background-color: var(--Darkcyan); 
     background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
-    background-repeat: no-repeat;
-    background-position: -660px -580px;
-    
-    ba
+    background-repeat: no-repeat, no-repeat;
+    background-position: -80% 150%, 165% -75%;
 
     font-family: 'Kumbh Sans', sans-serif; 
     font-size: 18px;
