@@ -8,25 +8,32 @@
 body{
     padding: 0;
     margin: 0;
+    
     background-color: var(--Darkcyan); 
+    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: -660px -580px;
+    
+    ba
+
     font-family: 'Kumbh Sans', sans-serif; 
     font-size: 18px;
 }
 .container{
+    margin: 94px auto;
     width: 330px; /* 380 en desktop */
     height: 380px;
     border-radius: 15px;
     overflow: hidden;
-    margin-bottom: 20px;
-    margin-top: 94px;
+    position: relative;
 }
 .bubbles{
     height: 140px;
     background: url(/images/bg-pattern-card.svg);
 }
 .photo{
-    position: absolute;
-    top: 180px;
+    position:absolute;
+    top: 87px; 
     left: 100px;
     border: 5px solid white;
     border-radius: 50%;
