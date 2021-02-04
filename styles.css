@@ -10,16 +10,16 @@ body{
     margin: 0;
     
     background-color: var(--Darkcyan); 
-    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
-    background-position: -80% 150%, 165% -75%;
+    background-position: right 51vw bottom 20vh, left 45vw top 50vh;
 
     font-family: 'Kumbh Sans', sans-serif; 
     font-size: 18px;
 }
 .container{
-    margin: 94px auto;
-    width: 330px; /* 380 en desktop */
+    margin: 170px auto 50px;
+    width: 330px; 
     height: 380px;
     border-radius: 15px;
     overflow: hidden;
@@ -27,12 +27,12 @@ body{
 }
 .bubbles{
     height: 140px;
-    background: url(/images/bg-pattern-card.svg);
+    background: url(images/bg-pattern-card.svg);
 }
 .photo{
     position:absolute;
     top: 87px; 
-    left: 100px;
+    left: 35%;
     border: 5px solid white;
     border-radius: 50%;
     height: 96px;
@@ -81,3 +81,9 @@ header{
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (min-width: 1440px){
+    .container{
+        width: 380px;
+    }
+}
